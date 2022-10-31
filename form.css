@@ -1,0 +1,113 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    position: fixed;
+    background-color: black;
+    height:100px;
+    width: 100%;
+    
+}
+.header-bg{
+    z-index: -1;
+    width:100%;
+    position: absolute;
+    opacity: 0.65;
+}
+.header-img{
+    height:102px;
+    width:14.4%;
+    right: 0px;
+    margin: -2px;
+}
+.options{
+    margin-left: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width:auto;
+    background-color: rgba(0,0,0,0.5);
+    padding:0px;
+    color: white;
+}
+.options a{
+    font-family: serif;
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+    color: white;
+}
+.options a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/*bags heading in header*/
+p.head-name{
+    font-family:  cursive;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    font-size: 55px;
+    margin: 0px;
+    color: white;
+}
+header>p>a{
+    text-decoration: none;
+    padding:0px;
+    margin: 0px;
+    color: white;
+}
+
+/* form body*/
+body{
+    padding:0px;
+    margin: 0px;
+
+}
+#body{
+    background: rgba(0,0,0,0.5);
+    padding:0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+.form{
+    padding-top: 100px;
+    height: 555px;
+
+}
+table{
+    margin-top:20px ;
+    background:rgba(133, 133, 133, 0.7);
+    font-weight: 700;
+    backdrop-filter: blur(2px);
+}
+
+.submit{
+    background-color: cornflowerblue;
+    padding-left:10px ;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.submit:hover{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+.reset{
+    background-color: darkgray;
+    padding-left:10px ;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.reset:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}

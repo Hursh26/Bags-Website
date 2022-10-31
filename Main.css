@@ -1,0 +1,291 @@
+*{
+    padding:0px;
+    margin: 0px;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+/*Header Section and Navigation bar*/
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    position: fixed;
+    background-color: black;
+    height:100px;
+    width: 100%;
+}
+/*header::before{
+    content:"";
+    height: 100%;
+    width: 100%;
+    background-color: rgb(167, 209, 94);
+    position: absolute;
+    z-index: -1;
+}*/
+.header-bg{
+    z-index: -1;
+    width:100%;
+    position: absolute;
+    opacity: 0.55;
+}
+.header-img{
+    height:102px;
+    width:14.4%;
+    right: 0px;
+    margin: -2px;
+}
+.options{
+    margin-left: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+.options a{
+    font-family: serif;
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+    
+}
+.options a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.actions a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/*Login side*/
+
+.actions{
+    display: inline-flex;
+    justify-content: space-around;
+    width:13%;
+    flex-wrap: wrap;
+}
+.actions a{ 
+    font-family: serif;
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+}
+
+/*bags heading in header*/
+
+p.head-name{
+    font-family:  cursive;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 55px;
+    
+}
+header>p>a{
+    text-decoration: none;
+}
+
+/* Website body*/
+.body{
+    height: 660px;
+    width: 100%;
+}
+#cover{
+    padding-top: 100px;
+    background: url("cover.jpeg") no-repeat 0px 100px ;
+    background-size: 100% 85% ;
+    width: 100%;
+    height: 85%;
+}
+.cover-up{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    display: inline-table;
+    text-align: center;
+}
+
+/* Category section starts here*/
+
+#category-page{
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px solid red ;
+    border-radius: 10px;
+    width:97.6%;
+    height: 83%;
+}
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80%;
+    width:100%
+}
+.category{
+    margin-left: 10px;
+    margin-right: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    width:48%;
+    height: 100%;
+}
+#bg{
+    padding: 0px;
+    background-size: 95% 100%;
+    background-position: 15px 0px;
+}
+.content{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 15px;
+    width: 95%;
+    background-color: rgba(0,0,0,0.5);
+}
+.left{
+    background: url("left.jpeg") no-repeat scroll ;
+}
+.right{
+    background: url("right.jpeg") no-repeat scroll ;
+}
+p{
+    font-family:  cursive;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+.shop{
+    background-color: blue;
+    width:100px;
+    height:35px;
+    border-radius: 18px;
+}
+.shop:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+/*.chatbot{
+    background-color: red;
+    border-radius: 50%;
+    border-color: black ;
+    border: 3px dashed;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 10px;
+    right: 10px;
+}*/
+
+/* Sales Section*/
+.sales-bars{
+    background-color: white;
+    padding: 20px;
+    height: 90vh;
+}
+.trending{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 15rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.sale-cards{
+    width: 26%;
+    height: 180px;
+    padding: 10px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    border-color: aliceblue;
+    border: 5px;
+}
+.sale-cards:hover{
+    box-shadow:  0px 0px 5px rgba(0,0,0,0.5);
+}
+.sale-cards  > p{
+    color: black;
+    font-size:17px ;
+    padding: 0;
+}
+.sale-cards>a:hover{
+    background-color: rgba(0,0,0,0.3);
+    height:25%;
+}
+
+/* About Us*/
+.about-us{
+    width:100%;
+    height: 55%;
+    display: flex;
+    background-color: rgb(36, 36, 36);
+    padding-top: 30px;
+}
+.about-content{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(36, 36, 36);
+    border-right: 2px solid gray;
+}
+.about-us>.about-content>div{
+    text-align: center;
+    width:auto;
+    min-width: 12%;
+    max-width: 60%;
+    padding:10px;
+}
+.dev{
+    display:flex;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+    padding: 3px;
+}
+hr{
+    margin: 7px;
+}
+.about>hr{
+    margin-top: 20px;
+}
+.form{
+    padding-left: 20px;
+}
+.button{
+    color:black;
+    padding:5px;
+    border-radius: 5px;
+}
+.submit{
+    background-color: cornflowerblue;
+}
+.submit:hover{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+.reset{
+    background-color: darkgray;
+}
+.reset:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.kd,.aka,.adi{
+    width:30%;
+    margin:2px;
+}

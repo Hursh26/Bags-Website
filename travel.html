@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Travel</title>
+    <link rel="stylesheet" type="text/css"  href="Main.css">
+    <link rel="stylesheet" type="text/css" href="travel.css">
+</head>
+<body>
+    <header>
+        <div class="header-bg">
+            <img src="Nav-bar/bg.jpeg" alt="head Image" title="img" class="header-img" style="width:18%;">
+            <img src="Nav-bar/bg2.jpeg" alt="head Image" title="img" class="header-img">
+            <img src="Nav-bar/bg5.jpeg" alt="head Image" title="img" class="header-img">
+            <img src="Nav-bar/bg8.jpeg" alt="head Image" title="img" class="header-img" style="width:10%;">
+            <img src="Nav-bar/style bags.jpeg" alt="head Image" title="img" class="header-img">
+            <img src="Nav-bar/bg4.jpeg" alt="head Image" title="img" class="header-img">
+            <img src="Nav-bar/handbags.jpeg" alt="head Image" title="img" class="header-img">
+        </div>
+        <div class="options">
+            <a href="men.html">MEN</a>
+            <a href="women.html">WOMEN</a>
+            <a href="Kids.html">KIDS</a>
+            <a href="Gallery.html">Gallery</a>
+        </div>
+            <p class="head-name"> <a href="index.html">SHEIN Bags</a> </p>
+        <div class="actions" id="actions">
+            <a  href="Login.html">Login</a>
+            <a  href="UserData.php">SIGN UP</a>
+        </div>
+        <script type="text/javascript">
+            if(localStorage.slogin==1){
+                const logo=document.getElementById("actions");
+                logo.innerHTML='<div><img src="user.jpg" width="50px " height="50px" style="border-radius: 50%;"> </div>';
+                logo.style="justify-content:end;margin-right:15px;"
+            }
+            </script>
+    </header>
+
+    <!--Sales Body Section starts here-->
+    <section id="salesbars">
+    <h1 align="center" style="margin-bottom:10px;font-size: 40px; margin-top:30px; color:black; margin-left: 25px;">Travel Bags</h1>
+    <div class="travelcards"> 
+        <div class="sale-cards"><img src="travel/t1.jpg" alt="Sale image" title="image" height="70%"><p>Swizz MILITIARY<br>Unisex Black Textured...<br>₹:3999.00 </p></div>
+        <div class="sale-cards"><img src="travel/t2.jpg" alt="Sale image" title="image" height="70%"><p>Flamers Traveler<br>handbags...<br>₹:1200</p></div>
+        <div class="sale-cards"><img src="travel/t3.jpg" alt="Sale image" title="image" height="70%"><p>griffin Attitude<br>blue...<br>₹:6295</p></div>
+        <div class="sale-cards"><img src="travel/t4.jpg" alt="Sale image" title="image" height="70%"><p>Polyster Rolling<br>wheeled Duffel...<br>₹:6592</p></div>
+        <div class="sale-cards"><img src="travel/t5.jpg" alt="Sale image" title="image" height="70%"><p>Eagle Militiary bags...<br>₹:4562</p></div>
+        <div class="sale-cards"><img src="travel/t6.jpg" alt="Sale image" title="image" height="70%"><p>Alpinestars<br>Komodo travel...<br>₹:9750</p></div>
+        <div class="sale-cards"><img src="travel/t7.jpg" alt="Sale image" title="image" height="70%"><p>head Freeride<br>kore bags<br>₹:6678</p></div>
+        <div class="sale-cards"><img src="travel/t8.jpg" alt="Sale image" title="image" height="70%"><p>Head rebels <br>Travel bag<br>₹:8962</p></div>
+        <div class="sale-cards"><img src="travel/t9.jpg" alt="Sale image" title="image" height="70%"><p>Bags US <br>Bronw faux leather...<br>₹:678</p></div>
+        <div class="sale-cards"><img src="travel/t10.jpg" alt="Sale image" title="image" height="70%"><p>Stylish blue...<br>₹:892</p></div>
+        <div class="sale-cards"><img src="travel/t11.jpg" alt="Sale image" title="image" height="70%"><p>Leather fos...<br>₹:1862</p></div>
+        <div class="sale-cards"><img src="travel/t12.jpg" alt="Sale image" title="image" height="70%"><p>Safari Unisex teal<br>Green sprint...<br>₹:678</p></div>
+        <div class="sale-cards"><img src="travel/t13.jpg" alt="Sale image" title="image" height="70%"><p>Black Classy moder...<br>₹:1690</p></div>
+        <div class="sale-cards"><img src="travel/t16.jpg" alt="Sale image" title="image" height="70%"><p>Red-orange stripped <br>Classy moder...<br>₹:1690</p></div>
+        <div class="sale-cards"><img src="travel/t14.jpg" alt="Sale image" title="image" height="70%"><p>smoke grey Classy moder...<br>₹:1690</p></div>
+        <div class="sale-cards" style="display:flex; justify-items: center;"><a href="" style="text-decoration: none;width: auto;padding-left: 15px;width:115px; align-self: center;"><h3 style="color:black;">View More</h3></a></div>
+    </div>
+</section>
+<section class="page-end" style="background-color:rgba(255, 255, 255, 0.15);"><br><br>
+    <h3 style="padding-left:50px">Please submit your precious Feedback</h3>
+    <form style="padding:50px">
+    <lable>Email:</lable>
+    <input type="email" required><br><br>
+    <label>Your Feedback</label>
+    <textarea ></textarea><br><br>
+    <center><Button value="submit" class="button submit" >Submit</Button>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <button value="reset" class="button reset" >Reset</button></center>
+    </form><br><br><br>
+</section>
+</body>
+</html>

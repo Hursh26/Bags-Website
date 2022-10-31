@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head><title> LOGIN </title>
+    <link rel="stylesheet" type="text/css" href="web.css">
+    <script src="form.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="header-bg">
+            <img src="Nav-bar/bg.jpeg" class="header-img" style="width:18%;">
+            <img src="Nav-bar/bg2.jpeg" class="header-img">
+            <img src="Nav-bar/bg5.jpeg" class="header-img">
+            <img src="Nav-bar/bg8.jpeg" class="header-img" style="width:10%;">
+            <img src="Nav-bar/style bags.jpeg" class="header-img">
+            <img src="Nav-bar/bg4.jpeg" class="header-img">
+            <img src="Nav-bar/handbags.jpeg" class="header-img">
+        </div>
+            <p class="head-name"><a href="index.html">SHEIN Bags</a></p>
+            <div class="options">
+                <a href="men.html">MEN</a>
+                <a href="women.html">WOMEN</a>
+                <a href="Kids.html">KIDS</a>
+                <a href="Gallery.html">Gallery</a>
+            </div>
+    </header>
+
+<!--Website Body starts here-->
+    <section id="body">
+            <div class="form">
+                <form name="Login" id="log" action="Login.php" method=post >
+                    
+                        <fieldset>
+                            <legend align="center" style="color:black"> LOGIN </legend>
+                            
+                                <lable> Username:</lable>
+                                <br>
+                                <input type="text" name="username" placeholder="Username" autofocus style="color: black;"/><br>
+                                <br>
+                                <lable>Passowrd:</lable>
+                                <br>
+                                <input type="Password" name="Password" placeholder="Password" style="color: black;"/>
+                                <br>
+                                <p id="error" style="color:red;font-size:20px ;"></p>
+                                <a href="UserData.php"><p style="color:blue; padding:10px"> Register/Sign up </p></a>
+                                <button type="submit" class="submit" style="font-weight:1000; color:black; height:25px; width:90px; border-radius: 10%;">Login</button> 
+                                &nbsp; &nbsp; 
+                                <input type="reset" class="reset" value="Cancel" style="font-weight:1000;color:black; height:25px; width:90px; border-radius: 10%;"/>
+                            </div>
+                        
+                        </fieldset>
+                    
+                </form>
+            </div>
+    </section>
+</body>
+</html>

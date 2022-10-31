@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HomePage</title>
+    <link rel="stylesheet" type="text/css" href="Main.css">
+    
+</head>
+<body >
+    <header>
+        <div class="header-bg">
+            <img src="Nav-bar/bg.jpeg" class="header-img" style="width:18%;">
+            <img src="Nav-bar/bg2.jpeg" class="header-img">
+            <img src="Nav-bar/bg5.jpeg" class="header-img">
+            <img src="Nav-bar/bg8.jpeg" class="header-img" style="width:10%;">
+            <img src="Nav-bar/style bags.jpeg" class="header-img">
+            <img src="Nav-bar/bg4.jpeg" class="header-img">
+            <img src="Nav-bar/handbags.jpeg" class="header-img">
+        </div>
+        <div class="options">
+            <a href="men.html">MEN</a>
+            <a href="women.html">WOMEN</a>
+            <a href="Kids.html">KIDS</a>
+            <a href="Gallery.html">Gallery</a>
+        </div>
+            <p class="head-name"><a href="index.html">SHEIN Bags</a></p>
+        <div class="actions" id="actions">
+            <a  href="Login.php">Login</a>
+            <a  href="UserData.php">SIGN UP</a>
+        </div>
+        <script type="text/javascript">
+            if(localStorage.slogin==1){
+                const logo=document.getElementById("actions");
+                logo.innerHTML='<div><img src="user.jpg" width="50px " height="50px" style="border-radius: 50%;"> </div>';
+                logo.style="justify-content:end;margin-right:15px;"            }
+            </script>
+    </header>
+
+<!--Website Body starts here-->
+
+    <div class="body">
+        <!--div class="chatbot"></div-->
+        <section id="cover">
+            <div class="cover-up">
+                <p id="sig" style="display: table-cell; vertical-align: middle;">Welcome To Shein<br><a href=form.html>Sign Up</a> and get started with an Amaizing shopping Experince</p>
+                <script type="text/javascript">
+                    if(localStorage.slogin==1){
+                        const logo=document.getElementById("sig");
+                        logo.innerHTML="Welcome To Shein<br>Not Sure where to start? our category below will help You out!"}
+                    </script>
+            </div>
+        </section>
+
+        <section id="category-page">
+            <center><p style="font-size:40px;padding-bottom: 0;">Categories</p></center><br>
+                <div class="categories">
+                    <div class="left category" id="bg">
+                    <div class="content category" >
+                        <h1 class="heading-left">Style bags</h1>
+                        <center><p>Here you will find style bags that suits<br> you</p></center>
+                        <a href="women.html"><button class="shop">shop Now</button></a>
+                    </div>
+                    </div>
+                    <div class="right category" id="bg">
+                    <div class="content category">
+                        <h1 class="heading-right">Travel bags</h1>
+                        <center><p>Here you will find bags that will be your perfect travel partner</p></center>
+                        <a href="travel.html"><button class="shop">shop Now</button></a>
+                    </div>
+                    </div>
+                </div>
+        </section>
+        <section class="sales-bars">
+            <h2 style="color:black;margin-bottom:10px">Trending</h2>
+            <div class="trending"> 
+                <div class="sale-cards"><img src="Card1.jpeg"  height="70%"><p>This is a sale card</p></div>
+                <div class="sale-cards"><img src="card2.jpeg"  height="70%"><p>This is a sale card</p></div>
+                <div class="sale-cards"><img src="men/s3.jpg" alt="Sale image" title="image" height="70%"><p>Tehno Trac...<br>₹:15999.00</p></div>
+                <div class="sale-cards"><img src="men/o6.jpg" alt="Sale image" title="image" height="70%"><p>Classy laptop b...<br>₹:8962</p></div>
+                <div class="sale-cards"><img src="women/Clutch/Clutch6.jpg" alt="Sale image" title="image" height="70%"><p>Minaudiere <br>₹ 678/-</br></p></div>
+                <div class="sale-cards"><img src="women/Handbag/Handbag10.jpeg" alt="Sale image" title="image" height="70%"><p>Solid<br>₹ 678/-</br></p></div>
+                <div class="sale-cards"><img src="men/c3.jpg" alt="Sale image" title="image" height="70%"><p>Zipline ...<br>₹:1499.00</p></div>
+                <div class="sale-cards"><img src="women/Saddle/Saddle7.jpeg" alt="Sale image" title="image" height="70%"><p>Be purpal<br>₹ 678/-</br></p></div>
+                <div class="sale-cards"><img src="women/Satchel/Satchel10.jpg" alt="Sale image" title="image" height="70%"><p>Leather <br>₹ 678/-</br></p></div>
+                <div class="sale-cards"><img src="women/Clutch/Clutch20.jpg" alt="Sale image" title="image" height="70%"><p>Pink bloosem<br>₹ 678/-</br></p></div>
+                <div class="sale-cards"><img src="men/M2.jpg" alt="Sale image" title="image" height="70%"><p>Tom Lang...<br>₹:3000.00</p></div>
+                <div class="sale-cards"><img src="women/Saddle/Saddle6.jpeg" alt="Sale image" title="image" height="70%"><p>Soul white<br>₹ 678/-</br></p></div>
+                <div class="sale-cards" style="display:flex; justify-items: center;"><a href="Gallery.html" style="text-decoration: none;padding-left: 15px;width:115px; align-self: center;"><h3 style="color:black;">Show More</h3></a></div>
+            </div>
+            <h2 style="color:black;margin-bottom:10px;margin-top: 15px;">Giftings</h2>
+            <div class="trending"> 
+                <div class="sale-cards"><img src="women/Saddle/Saddle1.jpg" alt="Sale image" title="image" height="70%"><p>mini pink<br>₹ 678/-</br></p></div>
+                <div class="sale-cards"><img src="women/Satchel/Satchel5.jpg" alt="Sale image" title="image" height="70%"><p>Satchel <br>₹ 678/-</br></p></div>
+                <div class="sale-cards"><img src="men/c8.jpg" alt="Sale image" title="image" height="70%"><p>Flamers ...<br>₹:1200</p></div>
+                <div class="sale-cards"><img src="card2.jpeg"  height="70%"><p>This is a sale card</p></div>
+                <div class="sale-cards"><img src="men/m13.jpg" alt="Sale image" title="image" height="70%"><p>Flexie Gy...<br>₹:4758.00</p></div>
+                <div class="sale-cards"><img src="kids/boy7.jpg" alt="Sale image" title="image" height="70%"><p>This is a sale card</p></div>
+                <div class="sale-cards"><img src="kids/girl10.jpg" alt="Sale image" title="image" height="70%"><p>This is a sale card</p></div>
+                <div class="sale-cards"><img src="kids/lu11.jpg" alt="Sale image" title="image" height="70%"><p>This is a sale card</p></div>
+                <div class="sale-cards"><img src="women/Clutch/Clutch11.jpg" alt="Sale image" title="image" height="70%"><p>Textured <br>₹ 678/-</br></p></div>
+                <div class="sale-cards"><img src="women/Saddle/Saddle5.jpeg" alt="Sale image" title="image" height="70%"><p>orange<br>₹ 678/-</br></p></div>
+                <div class="sale-cards"><img src="women/Satchel/Satchel4.jpg" alt="Sale image" title="image" height="70%"><p>Midnight...<br>₹ 678/-</br></p></div>
+                <div class="sale-cards"><img src="women/Satchel/Satchel6.jpg" alt="Sale image" title="image" height="70%"><p>Colourblock <br>₹ 678/-</br></p></div>
+                <div class="sale-cards" style="display:flex; justify-items: center;"><a href="Gallery.html" style="text-decoration: none;padding-left: 15px;width:115px; align-self: center;"><h3 style="color:black;">Show More</h3></a></div>
+            </div>
+        </section>
+        <section class="about-us">
+            <span class="about-content">
+            <div class="about">About
+                <hr size="2">
+                <div class="dev">
+                <div class="kd"><center><img src="pic 1.png" width="90px " height="90px" style="border-radius: 50%;"></center>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quia dignissimos molestiae totam accusantium saepe necessitatibus, 
+                    quam id amet similique, corrupti exercitationem delectus quidem 
+                </div>
+
+                <div class="aka">
+                    <center><img src=""></center>
+                    Akanksha
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Iusto rem quidem voluptatum reiciendis totam porro? Facere
+                    molestiae mollitia nostrum debitis doloremque doloribus 
+                </div>
+
+                <div class="adi">
+                    <center><img src=""></center>
+                    Aditi
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Iusto rem quidem voluptatum reiciendis totam porro? Facere
+                    molestiae mollitia nostrum debitis doloremque doloribus 
+                </div>
+            </div>
+        </div>
+
+            <div class="about-b">
+            <div> Customer Care 
+                <hr size="2">
+                <li>Phone: +91 80265 43071</li>
+                <li>Address: </li>
+            </div><br><br>
+            
+            <div> Social media
+                <hr size="2">
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Youtube</li>
+                <li>Linked In</li>
+            </div>
+            </div>
+            </span>
+            <div class="form">
+            <form>
+            <h2>Feedback</h2><br><br>
+            <lable>Email:</lable>
+            <input type="email" required><br><br>
+            <label>Your Feedback</label>
+            <textarea ></textarea><br><br>
+            <center><Button value="submit" class="button submit" >Submit</Button>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <button value="reset" class="button reset" >Reset</button></center>
+            </form>
+        </div>
+        </section>
+    </div>
+</body>
+</html>
