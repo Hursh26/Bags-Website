@@ -15,10 +15,10 @@
     flex-wrap: wrap;
 }
 .sale-cards{
-    
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: auto;
     padding: 10px;
     border-radius: 10px;
+    margin: 15px;
 }

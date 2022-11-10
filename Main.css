@@ -213,7 +213,7 @@ p{
     border: 5px;
 }
 .sale-cards:hover{
-    box-shadow:  0px 0px 5px rgba(0,0,0,0.5);
+    box-shadow:  2px 2px 5px 1px rgba(0,0,0,0.5);
 }
 .sale-cards  > p{
     color: black;
